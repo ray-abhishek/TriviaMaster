@@ -1,0 +1,40 @@
+.question{
+    font-size: 1rem;
+    display: block;
+    width:80%;
+    margin:1.3rem auto 1.3rem auto;
+    padding:1.5rem;
+    background-color: rgb(46, 46, 46);
+    color:white;
+    border-radius: 10%;
+}
+
+.question h1{
+    font-size:2rem;
+    font-family:'Lato';
+}
+
+.question input[type="radio"]{
+    height:1.5rem;
+    width:1.5rem;
+}
+
+.question .form-check{
+    padding:0.7rem;
+}
+
+.question input[type="radio"]:hover .question input[type="radio"] + label{
+    color:crimson;
+}
+
+.question label{
+    padding-left:1rem;
+    font-size:1.5rem;
+    line-height: 2.2rem;
+    font-family:'Lato';
+    cursor: pointer;
+}
+
+.question label:hover{
+    color:crimson;
+}

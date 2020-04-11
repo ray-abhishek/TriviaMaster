@@ -1,0 +1,23 @@
+.stayleft{
+    margin-top:15%;
+    width:40%;
+}
+
+.stayleft a{
+    color:inherit;
+}
+
+.stayleft a:hover{
+    color:crimson;
+}
+
+.landingDiv{
+    background-image: url('/lady.jpeg');
+    color:whitesmoke;
+    height:100vh;
+}
+
+.section{
+    position:relative;
+    left:20rem;
+}
