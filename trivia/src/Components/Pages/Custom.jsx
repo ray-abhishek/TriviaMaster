@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row'
 import { v4 as uuidv4 } from 'uuid';
 import Question from '../Bits/Question'
 import styles from './Custom.module.css'
+import removeHTMLEntities from './CorrectJSON'
 
 export default class Custom extends React.Component{
     constructor(props)
@@ -29,6 +30,9 @@ export default class Custom extends React.Component{
 
     componentDidMount(){
         console.log("Mounting Component")
+
+        //First time the page is loaded/component is mounted, API call is made to fetch the Category List and render the Category SelectItem Component accordingly. In addition to this, we're also storing that fetched information in localStorage to prevent further API calls for Category List. 
+
         let categoriesFromStorage = JSON.parse(localStorage.getItem('storedCategories')) || []
         console.log(categoriesFromStorage, " is stored")
         if(categoriesFromStorage.length>0)
@@ -95,6 +99,7 @@ export default class Custom extends React.Component{
     }
 
     fetchQuestions = ()=>{
+
 /*      Sample URL
         https://opentdb.com/api.php?amount=10&category=25&difficulty=easy&type=multiple
 */      
@@ -184,30 +189,3 @@ export default class Custom extends React.Component{
     }
 }
 
-const removeHTMLEntities = (questionObject)=>{
-    
-    questionObject.forEach((item)=>{
-        let qFormatted = item["question"]
-        qFormatted = qFormatted.replace(/&quot;/g,'"')
-        qFormatted = qFormatted.replace(/&amp;/g,'&')
-        qFormatted = qFormatted.replace(/&#039;/g,'\'')
-        item["question"]=qFormatted
-
-        let correctAnsFormatted = item["correct_answer"]
-        correctAnsFormatted = correctAnsFormatted.replace(/&quot;/g,'"')
-        correctAnsFormatted = correctAnsFormatted.replace(/&amp;/g,'&')
-        correctAnsFormatted = correctAnsFormatted.replace(/&#039;/g,'\'')
-        item["correct_answer"]=correctAnsFormatted
-
-        let incorrectAnsFormatted = item["incorrect_answers"]
-        incorrectAnsFormatted = incorrectAnsFormatted.map((ans=>{
-            ans = ans.replace(/&quot;/g,'"')
-            ans = ans.replace(/&amp;/g,'&')
-            ans = ans.replace(/&#039;/g,'\'')
-            return ans
-        }))
-        item["incorrect_answers"]=incorrectAnsFormatted
-    })
-
-    return questionObject
-}

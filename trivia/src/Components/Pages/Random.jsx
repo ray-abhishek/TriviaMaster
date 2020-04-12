@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row'
 import { v4 as uuidv4 } from 'uuid';
 import Question from '../Bits/Question'
 import styles from './Custom.module.css'
+import removeHTMLEntities from './CorrectJSON'
 
 export default class Random extends React.Component{
     constructor(props)
@@ -20,21 +21,14 @@ export default class Random extends React.Component{
     }
 
     componentDidMount(){
-/*      Sample URL
-        https://opentdb.com/api.php?amount=10&category=25&difficulty=easy&type=multiple
-*/      
 
         this.setState({
             isLoading:true
         })
 
-
         axios.get("https://opentdb.com/api.php?amount=10")
         .then(response=>{
-            console.log(response.data.results, " are the questions fetched BEFORE FORMATTING")
             let questions_formatted = removeHTMLEntities(response.data.results)
-
-            console.log(questions_formatted, " AFTER FORMATTING")
             this.setState({
                 isLoading: false,
                 questions : questions_formatted,
@@ -47,7 +41,7 @@ export default class Random extends React.Component{
     }
 
     keepCount = (id,ifCorrect)=>{
-        console.log(id," is Question Index and is it correct? ",ifCorrect)
+        console.log(id," is Question Index and is the answer selected correct? ",ifCorrect)
         this.tracker[id]=ifCorrect 
         console.log(this.tracker, " is current tally of user's correctness")
     }
@@ -92,32 +86,4 @@ export default class Random extends React.Component{
             </div>
         )
     }
-}
-
-const removeHTMLEntities = (questionObject)=>{
-    
-    questionObject.forEach((item)=>{
-        let qFormatted = item["question"]
-        qFormatted = qFormatted.replace(/&quot;/g,'"')
-        qFormatted = qFormatted.replace(/&amp;/g,'&')
-        qFormatted = qFormatted.replace(/&#039;/g,'\'')
-        item["question"]=qFormatted
-
-        let correctAnsFormatted = item["correct_answer"]
-        correctAnsFormatted = correctAnsFormatted.replace(/&quot;/g,'"')
-        correctAnsFormatted = correctAnsFormatted.replace(/&amp;/g,'&')
-        correctAnsFormatted = correctAnsFormatted.replace(/&#039;/g,'\'')
-        item["correct_answer"]=correctAnsFormatted
-
-        let incorrectAnsFormatted = item["incorrect_answers"]
-        incorrectAnsFormatted = incorrectAnsFormatted.map((ans=>{
-            ans = ans.replace(/&quot;/g,'"')
-            ans = ans.replace(/&amp;/g,'&')
-            ans = ans.replace(/&#039;/g,'\'')
-            return ans
-        }))
-        item["incorrect_answers"]=incorrectAnsFormatted
-    })
-
-    return questionObject
 }
