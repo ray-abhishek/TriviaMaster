@@ -14,11 +14,11 @@ export default class Question extends React.Component{
 
     handleOptionChange = (e)=>{
         let ifCorrect 
-        console.log(e.target.id, " is selected answer")
+        console.log(e.target.value, " is selected answer")
         this.setState({
             selectedOption : e.target.value
         })
-        if(e.target.id==this.props.data.correct_answer)
+        if(e.target.value==this.props.data.correct_answer)
             ifCorrect = true 
         else ifCorrect = false 
         this.props.track(this.props.id, ifCorrect)
@@ -34,8 +34,8 @@ export default class Question extends React.Component{
                 <h1>{question}</h1>
                 <Form>
                 {this.state.all_answers.map((ans,index)=>{
-                    return <Form.Check type="radio" checked={this.state.selectedOption==`option${index+1}`} value={`option${index+1}`} onChange={this.handleOptionChange}
-                    id={ans} key={uuidv4()} label={ans}/>
+                    return <Form.Check type="radio" checked={this.state.selectedOption==ans} value={ans} onChange={this.handleOptionChange}
+                    id={ans+this.props.id} key={uuidv4()} label={ans}/>
                 })}
                 </Form>
             </div>

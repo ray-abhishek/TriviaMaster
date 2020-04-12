@@ -150,7 +150,7 @@ export default class Custom extends React.Component{
             <button onClick={this.fetchQuestions}>Generate Quiz</button>
             </Row>
 
-            <Row className={this.state.resultClass}><h1>{this.state.result}</h1></Row>
+            <Row className={this.state.resultClass}><h1 className="text-center display-4">You got {this.state.result} correct!</h1></Row>
 
             <Row style={{margin:"0"}} >
                 {
