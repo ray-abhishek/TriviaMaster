@@ -17,3 +17,9 @@ select{
 .hide{
     display:none;
 }
+
+.generate{
+    font-size:3rem;
+    color:white;
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%); 
+}

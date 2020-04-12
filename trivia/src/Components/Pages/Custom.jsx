@@ -19,15 +19,16 @@ export default class Custom extends React.Component{
             selectedDifficulty:'',
             selectedType:'',
             questions: [],
-            result:0,
             resultClass : styles.hide,
-            submitClass : styles.hide, 
+            submitClass : styles.hide,
+            isLoading : false 
         }
         this.tracker = []
+        this.result = 0
     }
 
     componentDidMount(){
-        
+        console.log("Mounting Component")
         let categoriesFromStorage = JSON.parse(localStorage.getItem('storedCategories')) || []
         console.log(categoriesFromStorage, " is stored")
         if(categoriesFromStorage.length>0)
@@ -96,7 +97,12 @@ export default class Custom extends React.Component{
     fetchQuestions = ()=>{
 /*      Sample URL
         https://opentdb.com/api.php?amount=10&category=25&difficulty=easy&type=multiple
-*/
+*/      
+
+        this.setState({
+            isLoading:true
+        })
+
         let diff_param = '', type_param = '', cate_param = this.state.selectedCategory
         if(this.state.selectedDifficulty!="any difficulty")
         diff_param = `&difficulty=${this.state.selectedDifficulty}`
@@ -108,9 +114,10 @@ export default class Custom extends React.Component{
         .then(response=>{
             console.log(response.data.results, " are the questions fetched BEFORE FORMATTING")
             let questions_formatted = removeHTMLEntities(response.data.results)
-            console.log("FORMATTING\nFORMATTING\nFORMATTING\n")
+
             console.log(questions_formatted, " AFTER FORMATTING")
             this.setState({
+                isLoading: false,
                 questions : questions_formatted,
                 submitClass: styles.show
             })
@@ -132,9 +139,13 @@ export default class Custom extends React.Component{
             if(item==true) correct++
         })
         this.setState({
-            result : correct,
             resultClass: styles.show
         })
+        this.result = correct
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
     }
 
     render(){
@@ -147,12 +158,12 @@ export default class Custom extends React.Component{
 
             <SelectItem data={this.state.type} select={this.findType}/>
 
-            <button onClick={this.fetchQuestions}>Generate Quiz</button>
+            <button onClick={this.fetchQuestions} className={styles.generate}>Generate Quiz</button>
             </Row>
 
-            <Row className={this.state.resultClass}><h1 className="text-center display-4">You got {this.state.result} correct!</h1></Row>
-
-            <Row style={{margin:"0"}} >
+            <Row className={this.state.resultClass}><h1 className="text-center display-4">You got {this.result} correct!</h1></Row>
+            {this.state.isLoading?<div className="display-4 text-white text-center mt-5">L O A D I N G . . .</div>:
+                <Row style={{margin:"0"}} >
                 {
                     this.state.questions.length!==0 &&
                     this.state.questions.map((qsn,index)=>{
@@ -161,6 +172,8 @@ export default class Custom extends React.Component{
                     
                 }
             </Row>
+            }
+            
             <Row style={{margin:"0"}} className={`text-center ${this.state.submitClass}`}>
                     <button className={styles.submit} onClick={this.calculateResult}>
                     S U B M I T
