@@ -1,0 +1,153 @@
+[
+    {
+        "name": "URU Brewpark",
+        "image_url" : "/food1.jpg",
+        "categories" : ["Continental","Asian","Pizza","Desserts"],
+        "cost_for_two" : "600",
+        "min_cost" : "250",
+        "time" : "Up to 30 min",
+        "payment_method" : {
+            "card": false,
+            "cash": true,
+            "upi": false
+        },
+        "rating" : "4.3",
+        "votes" : "766",
+        "reviews" : "512"
+    },
+    {
+        "name": "Taj Vivanta",
+        "image_url" : "/food2.jpg",
+        "categories" : ["Texas BBQ","Continental","Asian","Pizza","Desserts", "Thai", "Japanese"],
+        "cost_for_two" : "1600",
+        "min_cost" : "1500",
+        "time" : "Up to 1 Hour",
+        "payment_method" : {
+            "card": true,
+            "cash": false,
+            "upi": true
+        },        "rating" : "3.8",
+        "votes" : "766",
+        "reviews" : "512"
+    },
+    {
+        "name": "Madhuban",
+        "image_url" : "/food3.jpg",
+        "categories" : ["Continental","Asian","Pizza","Desserts"],
+        "cost_for_two" : "420",
+        "min_cost" : "420",
+        "time" : "Up to 420 min",
+        "payment_method" : {
+            "card": true,
+            "cash": false,
+            "upi": false
+        },        "rating" : "4.2",
+        "votes" : "420",
+        "reviews" : "420"
+    },
+    {
+        "name": "Hyatt Regency",
+        "image_url" : "/food4.jpg",
+        "categories" : ["Greek","Chinese","Continental","Asian","Pizza","Desserts"],
+        "cost_for_two" : "1200",
+        "min_cost" : "1500",
+        "time" : "Up to 30 min",
+        "payment_method" : {
+            "card": false,
+            "cash": true,
+            "upi": false
+        },        "rating" : "3.7",
+        "votes" : "345",
+        "reviews" : "200"
+    },
+    {
+        "name": "Jungle Kitchen",
+        "image_url" : "/food5.jpg",
+        "categories" : ["African","Continental","Asian","Pizza","Desserts"],
+        "cost_for_two" : "800",
+        "min_cost" : "800",
+        "time" : "Up to 30 min",
+        "payment_method" : {
+            "card": true,
+            "cash": false,
+            "upi": false
+        },        "rating" : "3.3",
+        "votes" : "345",
+        "reviews" : "150"
+    },
+    {
+        "name": "Coffee Central",
+        "image_url" : "/food6.jpg",
+        "categories" : ["Burgers","Continental","Asian","Pizza","Desserts"],
+        "cost_for_two" : "400",
+        "min_cost" : "50",
+        "time" : "Up to 30 min",
+        "payment_method" : {
+            "card": true,
+            "cash": false,
+            "upi": false
+        },        "rating" : "2.5",
+        "votes" : "450",
+        "reviews" : "344"
+    },
+    {
+        "name": "Silver Lining",
+        "image_url" : "/food7.jpg",
+        "categories" : ["Continental","Asian","Pizza","Desserts"],
+        "cost_for_two" : "1400",
+        "min_cost" : "900",
+        "time" : "Up to 30 min",
+        "payment_method" : {
+            "card": true,
+            "cash": false,
+            "upi": true
+        },        "rating" : "4.5",
+        "votes" : "250",
+        "reviews" : "500"
+    },
+    {
+        "name": "Rain",
+        "image_url" : "/food8.jpg",
+        "categories" : ["Continental","Asian","Pizza","Desserts"],
+        "cost_for_two" : "600",
+        "min_cost" : "50",
+        "time" : "Up to 30 min",
+        "payment_method" : {
+            "card": true,
+            "cash": false,
+            "upi": false
+        },        "rating" : "4.9",
+        "votes" : "244",
+        "reviews" : "156"
+    },
+    {
+        "name": "Nostril",
+        "image_url" : "/food9.jpg",
+        "categories" : ["Continental","Asian","Pizza","Desserts"],
+        "cost_for_two" : "400",
+        "min_cost" : "550",
+        "time" : "Up to 30 min",
+        "payment_method" : {
+            "card": false,
+            "cash": true,
+            "upi": false
+        },        "rating" : "3.5",
+        "votes" : "242",
+        "reviews" : "145"
+    },
+    {
+        "name": "Thai Fusion",
+        "image_url" : "/food10.jpg",
+        "categories" : ["Thai","Continental","Asian","Pizza","Desserts"],
+        "cost_for_two" : "1600",
+        "min_cost" : "50",
+        "time" : "Up to 30 min",
+        "payment_method" : {
+            "card": false,
+            "cash": false,
+            "upi": true
+        },        "rating" : "2.5",
+        "votes" : "256",
+        "reviews" : "444"
+    }
+]

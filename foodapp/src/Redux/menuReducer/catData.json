@@ -1,0 +1,38 @@
+[
+    {
+        "title" : "Chinese",
+        "url" : "/chinese1.jpeg"
+    },
+    {
+        "title" : "Biryani",
+        "url" : "/biryani1.jpg"
+    },
+    {
+        "title" : "Rolls",
+        "url" : "/rolls1.jpeg"
+    },
+    {
+        "title" : "South Indian",
+        "url" : "/south1.jpeg"
+    },
+    {
+        "title" : "Bakery",
+        "url" : "/bakery1.jpeg"
+    },
+    {
+        "title" : "Pizza",
+        "url" : "/pizza1.jpeg"
+    },
+    {
+        "title" : "Burgers",
+        "url" : "/burger1.jpeg"
+    },
+    {
+        "title" : "Tacos",
+        "url" : "/tacos1.jpeg"
+    },
+    {
+        "title" : "North Indian",
+        "url" : "/curry1.jpeg"
+    }
+]
