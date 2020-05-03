@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../RestaurantDetails.module.css'
+import styles from './RestaurantDetails.module.css'
 
 const getPayments = (obj)=>{
     let allowedMethods = []

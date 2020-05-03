@@ -1,8 +1,9 @@
 import restaurantData from './resData.json'
 import categoryData from './catData.json'
+import foodData from './foodData.json'
 
 const initialState = {
-    food : [],
+    food : foodData,
     restaurants : restaurantData,
     categories : categoryData
 }

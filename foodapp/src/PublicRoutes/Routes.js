@@ -2,6 +2,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Food from '../Components/Pages/Food'
 import Restaurants from '../Components/Pages/Restaurants'
+import Catalog from '../Components/Pages/Catalog'
 
 function Routing(){
 
@@ -12,6 +13,7 @@ function Routing(){
         
         <Route path="/restaurants" render={(props)=><Restaurants {...props} /> } />
 
+        <Route path="/:category" render={(props)=><Catalog {...props} /> } />
     </Switch>
     )
 }

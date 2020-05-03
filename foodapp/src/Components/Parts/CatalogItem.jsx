@@ -78,16 +78,16 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Category({title , url}) {
+export default function CatalogItem({name,url,cost}) {
 
-  console.log(title, url, " are title and url")
+  console.log(name, url, cost, " are name, url and cost of food")
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
         <ButtonBase
           focusRipple
-          key={title}
+          key={name}
           className={classes.image}
           focusVisibleClassName={classes.focusVisible}
           style={{
@@ -108,7 +108,7 @@ export default function Category({title , url}) {
               color="inherit"
               className={classes.imageTitle}
             >
-              {title}
+              {name}
               <span className={classes.imageMarked} />
             </Typography>
           </span>
