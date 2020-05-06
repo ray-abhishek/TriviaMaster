@@ -13,7 +13,75 @@
         },
         "rating" : "4.3",
         "votes" : "766",
-        "reviews" : "512"
+        "reviews" : "512",
+        "menu" : {
+            "starters" : [
+                {
+                    "item" : "Manchurian",
+                    "cost" : "80",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Manchurian",
+                    "cost" : "100",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Chilly",
+                    "cost" : "150",
+                    "veg" : true
+                }
+            ],
+            "main_course" : [
+                {
+                    "item" : "Paneer Kareem Masala",
+                    "cost" : "200",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Reshmi Kebab Masala",
+                    "cost" : "150",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Paneer Kofta",
+                    "cost" : "220",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Veg Jalfrezi",
+                    "cost" : "100",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Mushroom Lababdar",
+                    "cost" : "220",
+                    "veg" : true 
+                }
+            ],
+            "desserts" : [
+                {
+                    "name" : "Brownie Sizzler",
+                    "cost" : "240",
+                    "veg" : true
+                },
+                {
+                    "name" : "Sundae",
+                    "cost" : "200",
+                    "veg" : true
+                },
+                {
+                    "name" : "Caramel Pudding",
+                    "cost" : "340",
+                    "veg" : true
+                },
+                {
+                    "name" : "Blueberry Cheesecake",
+                    "cost" : "300",
+                    "veg" : true
+                }
+            ]
+        }
     },
     {
         "name": "Taj Vivanta",
@@ -28,7 +96,75 @@
             "upi": true
         },        "rating" : "3.8",
         "votes" : "766",
-        "reviews" : "512"
+        "reviews" : "512",
+        "menu" : {
+            "starters" : [
+                {
+                    "item" : "Manchurian",
+                    "cost" : "80",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Manchurian",
+                    "cost" : "100",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Chilly",
+                    "cost" : "150",
+                    "veg" : true
+                }
+            ],
+            "main_course" : [
+                {
+                    "item" : "Paneer Kareem Masala",
+                    "cost" : "200",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Reshmi Kebab Masala",
+                    "cost" : "150",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Paneer Kofta",
+                    "cost" : "220",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Veg Jalfrezi",
+                    "cost" : "100",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Mushroom Lababdar",
+                    "cost" : "220",
+                    "veg" : true 
+                }
+            ],
+            "desserts" : [
+                {
+                    "name" : "Brownie Sizzler",
+                    "cost" : "240",
+                    "veg" : true
+                },
+                {
+                    "name" : "Sundae",
+                    "cost" : "200",
+                    "veg" : true
+                },
+                {
+                    "name" : "Caramel Pudding",
+                    "cost" : "340",
+                    "veg" : true
+                },
+                {
+                    "name" : "Blueberry Cheesecake",
+                    "cost" : "300",
+                    "veg" : true
+                }
+            ]
+        }
     },
     {
         "name": "Madhuban",
@@ -43,7 +179,75 @@
             "upi": false
         },        "rating" : "4.2",
         "votes" : "420",
-        "reviews" : "420"
+        "reviews" : "420",
+        "menu" : {
+            "starters" : [
+                {
+                    "item" : "Manchurian",
+                    "cost" : "80",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Manchurian",
+                    "cost" : "100",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Chilly",
+                    "cost" : "150",
+                    "veg" : true
+                }
+            ],
+            "main_course" : [
+                {
+                    "item" : "Paneer Kareem Masala",
+                    "cost" : "200",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Reshmi Kebab Masala",
+                    "cost" : "150",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Paneer Kofta",
+                    "cost" : "220",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Veg Jalfrezi",
+                    "cost" : "100",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Mushroom Lababdar",
+                    "cost" : "220",
+                    "veg" : true 
+                }
+            ],
+            "desserts" : [
+                {
+                    "name" : "Brownie Sizzler",
+                    "cost" : "240",
+                    "veg" : true
+                },
+                {
+                    "name" : "Sundae",
+                    "cost" : "200",
+                    "veg" : true
+                },
+                {
+                    "name" : "Caramel Pudding",
+                    "cost" : "340",
+                    "veg" : true
+                },
+                {
+                    "name" : "Blueberry Cheesecake",
+                    "cost" : "300",
+                    "veg" : true
+                }
+            ]
+        }
     },
     {
         "name": "Hyatt Regency",
@@ -58,7 +262,75 @@
             "upi": false
         },        "rating" : "3.7",
         "votes" : "345",
-        "reviews" : "200"
+        "reviews" : "200",
+        "menu" : {
+            "starters" : [
+                {
+                    "item" : "Manchurian",
+                    "cost" : "80",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Manchurian",
+                    "cost" : "100",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Chilly",
+                    "cost" : "150",
+                    "veg" : true
+                }
+            ],
+            "main_course" : [
+                {
+                    "item" : "Paneer Kareem Masala",
+                    "cost" : "200",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Reshmi Kebab Masala",
+                    "cost" : "150",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Paneer Kofta",
+                    "cost" : "220",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Veg Jalfrezi",
+                    "cost" : "100",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Mushroom Lababdar",
+                    "cost" : "220",
+                    "veg" : true 
+                }
+            ],
+            "desserts" : [
+                {
+                    "name" : "Brownie Sizzler",
+                    "cost" : "240",
+                    "veg" : true
+                },
+                {
+                    "name" : "Sundae",
+                    "cost" : "200",
+                    "veg" : true
+                },
+                {
+                    "name" : "Caramel Pudding",
+                    "cost" : "340",
+                    "veg" : true
+                },
+                {
+                    "name" : "Blueberry Cheesecake",
+                    "cost" : "300",
+                    "veg" : true
+                }
+            ]
+        }
     },
     {
         "name": "Jungle Kitchen",
@@ -73,7 +345,75 @@
             "upi": false
         },        "rating" : "3.3",
         "votes" : "345",
-        "reviews" : "150"
+        "reviews" : "150",
+        "menu" : {
+            "starters" : [
+                {
+                    "item" : "Manchurian",
+                    "cost" : "80",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Manchurian",
+                    "cost" : "100",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Chilly",
+                    "cost" : "150",
+                    "veg" : true
+                }
+            ],
+            "main_course" : [
+                {
+                    "item" : "Paneer Kareem Masala",
+                    "cost" : "200",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Reshmi Kebab Masala",
+                    "cost" : "150",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Paneer Kofta",
+                    "cost" : "220",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Veg Jalfrezi",
+                    "cost" : "100",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Mushroom Lababdar",
+                    "cost" : "220",
+                    "veg" : true 
+                }
+            ],
+            "desserts" : [
+                {
+                    "name" : "Brownie Sizzler",
+                    "cost" : "240",
+                    "veg" : true
+                },
+                {
+                    "name" : "Sundae",
+                    "cost" : "200",
+                    "veg" : true
+                },
+                {
+                    "name" : "Caramel Pudding",
+                    "cost" : "340",
+                    "veg" : true
+                },
+                {
+                    "name" : "Blueberry Cheesecake",
+                    "cost" : "300",
+                    "veg" : true
+                }
+            ]
+        }
     },
     {
         "name": "Coffee Central",
@@ -88,7 +428,75 @@
             "upi": false
         },        "rating" : "2.5",
         "votes" : "450",
-        "reviews" : "344"
+        "reviews" : "344",
+        "menu" : {
+            "starters" : [
+                {
+                    "item" : "Manchurian",
+                    "cost" : "80",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Manchurian",
+                    "cost" : "100",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Chilly",
+                    "cost" : "150",
+                    "veg" : true
+                }
+            ],
+            "main_course" : [
+                {
+                    "item" : "Paneer Kareem Masala",
+                    "cost" : "200",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Reshmi Kebab Masala",
+                    "cost" : "150",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Paneer Kofta",
+                    "cost" : "220",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Veg Jalfrezi",
+                    "cost" : "100",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Mushroom Lababdar",
+                    "cost" : "220",
+                    "veg" : true 
+                }
+            ],
+            "desserts" : [
+                {
+                    "name" : "Brownie Sizzler",
+                    "cost" : "240",
+                    "veg" : true
+                },
+                {
+                    "name" : "Sundae",
+                    "cost" : "200",
+                    "veg" : true
+                },
+                {
+                    "name" : "Caramel Pudding",
+                    "cost" : "340",
+                    "veg" : true
+                },
+                {
+                    "name" : "Blueberry Cheesecake",
+                    "cost" : "300",
+                    "veg" : true
+                }
+            ]
+        }
     },
     {
         "name": "Silver Lining",
@@ -103,7 +511,75 @@
             "upi": true
         },        "rating" : "4.5",
         "votes" : "250",
-        "reviews" : "500"
+        "reviews" : "500",
+        "menu" : {
+            "starters" : [
+                {
+                    "item" : "Manchurian",
+                    "cost" : "80",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Manchurian",
+                    "cost" : "100",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Chilly",
+                    "cost" : "150",
+                    "veg" : true
+                }
+            ],
+            "main_course" : [
+                {
+                    "item" : "Paneer Kareem Masala",
+                    "cost" : "200",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Reshmi Kebab Masala",
+                    "cost" : "150",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Paneer Kofta",
+                    "cost" : "220",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Veg Jalfrezi",
+                    "cost" : "100",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Mushroom Lababdar",
+                    "cost" : "220",
+                    "veg" : true 
+                }
+            ],
+            "desserts" : [
+                {
+                    "name" : "Brownie Sizzler",
+                    "cost" : "240",
+                    "veg" : true
+                },
+                {
+                    "name" : "Sundae",
+                    "cost" : "200",
+                    "veg" : true
+                },
+                {
+                    "name" : "Caramel Pudding",
+                    "cost" : "340",
+                    "veg" : true
+                },
+                {
+                    "name" : "Blueberry Cheesecake",
+                    "cost" : "300",
+                    "veg" : true
+                }
+            ]
+        }
     },
     {
         "name": "Rain",
@@ -118,7 +594,75 @@
             "upi": false
         },        "rating" : "4.9",
         "votes" : "244",
-        "reviews" : "156"
+        "reviews" : "156",
+        "menu" : {
+            "starters" : [
+                {
+                    "item" : "Manchurian",
+                    "cost" : "80",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Manchurian",
+                    "cost" : "100",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Chilly",
+                    "cost" : "150",
+                    "veg" : true
+                }
+            ],
+            "main_course" : [
+                {
+                    "item" : "Paneer Kareem Masala",
+                    "cost" : "200",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Reshmi Kebab Masala",
+                    "cost" : "150",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Paneer Kofta",
+                    "cost" : "220",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Veg Jalfrezi",
+                    "cost" : "100",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Mushroom Lababdar",
+                    "cost" : "220",
+                    "veg" : true 
+                }
+            ],
+            "desserts" : [
+                {
+                    "name" : "Brownie Sizzler",
+                    "cost" : "240",
+                    "veg" : true
+                },
+                {
+                    "name" : "Sundae",
+                    "cost" : "200",
+                    "veg" : true
+                },
+                {
+                    "name" : "Caramel Pudding",
+                    "cost" : "340",
+                    "veg" : true
+                },
+                {
+                    "name" : "Blueberry Cheesecake",
+                    "cost" : "300",
+                    "veg" : true
+                }
+            ]
+        }
     },
     {
         "name": "Nostril",
@@ -133,7 +677,75 @@
             "upi": false
         },        "rating" : "3.5",
         "votes" : "242",
-        "reviews" : "145"
+        "reviews" : "145",
+        "menu" : {
+            "starters" : [
+                {
+                    "item" : "Manchurian",
+                    "cost" : "80",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Manchurian",
+                    "cost" : "100",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Chilly",
+                    "cost" : "150",
+                    "veg" : true
+                }
+            ],
+            "main_course" : [
+                {
+                    "item" : "Paneer Kareem Masala",
+                    "cost" : "200",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Reshmi Kebab Masala",
+                    "cost" : "150",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Paneer Kofta",
+                    "cost" : "220",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Veg Jalfrezi",
+                    "cost" : "100",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Mushroom Lababdar",
+                    "cost" : "220",
+                    "veg" : true 
+                }
+            ],
+            "desserts" : [
+                {
+                    "name" : "Brownie Sizzler",
+                    "cost" : "240",
+                    "veg" : true
+                },
+                {
+                    "name" : "Sundae",
+                    "cost" : "200",
+                    "veg" : true
+                },
+                {
+                    "name" : "Caramel Pudding",
+                    "cost" : "340",
+                    "veg" : true
+                },
+                {
+                    "name" : "Blueberry Cheesecake",
+                    "cost" : "300",
+                    "veg" : true
+                }
+            ]
+        }
     },
     {
         "name": "Thai Fusion",
@@ -148,6 +760,74 @@
             "upi": true
         },        "rating" : "2.5",
         "votes" : "256",
-        "reviews" : "444"
+        "reviews" : "444",
+        "menu" : {
+            "starters" : [
+                {
+                    "item" : "Manchurian",
+                    "cost" : "80",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Manchurian",
+                    "cost" : "100",
+                    "veg" : true
+                },
+                {
+                    "item" : "Paneer Chilly",
+                    "cost" : "150",
+                    "veg" : true
+                }
+            ],
+            "main_course" : [
+                {
+                    "item" : "Paneer Kareem Masala",
+                    "cost" : "200",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Reshmi Kebab Masala",
+                    "cost" : "150",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Paneer Kofta",
+                    "cost" : "220",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Veg Jalfrezi",
+                    "cost" : "100",
+                    "veg" : true 
+                },
+                {
+                    "item" : "Mushroom Lababdar",
+                    "cost" : "220",
+                    "veg" : true 
+                }
+            ],
+            "desserts" : [
+                {
+                    "name" : "Brownie Sizzler",
+                    "cost" : "240",
+                    "veg" : true
+                },
+                {
+                    "name" : "Sundae",
+                    "cost" : "200",
+                    "veg" : true
+                },
+                {
+                    "name" : "Caramel Pudding",
+                    "cost" : "340",
+                    "veg" : true
+                },
+                {
+                    "name" : "Blueberry Cheesecake",
+                    "cost" : "300",
+                    "veg" : true
+                }
+            ]
+        }
     }
 ]

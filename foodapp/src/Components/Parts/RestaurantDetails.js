@@ -1,5 +1,9 @@
 import React from 'react'
 import styles from './RestaurantDetails.module.css'
+import { Button, Grid, Paper, Typography, Divider } from '@material-ui/core'
+import { makeStyles } from '@material-ui/core/styles';
+import MenuModal from './MenuModal'
+
 
 const getPayments = (obj)=>{
     let allowedMethods = []
@@ -10,37 +14,72 @@ const getPayments = (obj)=>{
     return allowedMethods.join(", ")
 }
 
-const RestaurantDetails = ({data})=>{
+const useStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1,
+  //    border:'2px solid rgb(59, 228, 143)',
+      marginTop : '1rem',
+      maxWidth : '1200px'
+    },
+    paper: {
+      padding: theme.spacing(3),
+      textAlign: 'center',
+      color: theme.palette.text.secondary,
+    },
+  }));
 
-    const {name, image_url, categories,cost_for_two,min_cost,time,payment_method,rating,votes,reviews} = data 
+
+const RestaurantDetails = ({data})=>{
+    const classes = useStyles();
+
+    
+    const {name, image_url, categories,cost_for_two,min_cost,time,payment_method,rating,votes,reviews , menu } = data 
   //  console.log(name, image_url, categories,cost,min_cost,time,payment_method,rating,votes,reviews)
 
+  const [open, setOpen] = React.useState(false);
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+
   return (
-      <div className={`${styles.flexdown} ${styles.fixwidth}`}>
-          <div className={`${styles.flexside} ${styles.fixstretch}`}>
-              <div><img src={image_url} alt="img"/></div>
+      <div className={classes.root}>
+          <Paper elevation={3}>
+          <Grid container className={styles.container}>
+              <Grid item xs={2}  className={styles.first}>
+                <img src={image_url} alt="img"/>
+              </Grid>
+              <Grid item xs={7} className={styles.middle}>
               <div className={styles.flexdown}>
                     <h1>{name}</h1>
-                    <p className={`${styles.categories} ${styles.muted}`}>{categories.join(", ")}</p>
-                    <p className={styles.muted}>Cost for two : {cost_for_two}</p>
-                    <div className={styles.flexside}>
-                        <p>Min: {min_cost}</p>
-                        <p>{time}</p>
-                    </div>
-                    <p>Accepts {getPayments(payment_method)} only</p>
+                    <p className={`${styles.muted}`}>{categories.join(", ")}</p>
+                    <p>Delivery Time : {time}</p>
+                    <p className={styles.invisible}>Accepts {getPayments(payment_method)} only</p>
               </div>
-              <div className={`${styles.flexdown} ${styles.goright}`}>
+              </Grid>
+              <Grid item xs={3}  className={styles.last}>
+              <div className={`${styles.flexdown} ${styles.apart}`}>
+                  <div>
                   <div class={styles.ratings}>{rating}</div>
                   <p>{votes} votes</p>
                   <p>{reviews} reviews</p>
+                  </div>
+                  <Button type="button" color="secondary" variant="contained" className={styles.menubtn} onClick={handleOpen}>Menu</Button>
               </div>
-          </div>
-          <div className={styles.floatright}>
-              <div className={styles.orderline}>Order Online ></div>
-          </div>
+              </Grid>
+          </Grid>
+          </Paper>
+          <MenuModal restMenu={menu} modalOpen={open} doClose={handleClose}/> 
+          
       </div>
   )
 
 }
 
 export default RestaurantDetails
+
