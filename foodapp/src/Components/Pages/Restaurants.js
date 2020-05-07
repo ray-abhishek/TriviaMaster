@@ -18,7 +18,8 @@ export default function Restaurant(props){
     return(
         <Grid style={basicGrid}>
             {
-                restaurants.map(restaurant => {
+                restaurants.map((restaurant,index) => {
+                    restaurant["index"] = index
                     return <RestaurantDetails key={uuidv4()} data={restaurant}/>
                 })
             }

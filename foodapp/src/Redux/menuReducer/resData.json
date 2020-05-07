@@ -15,51 +15,51 @@
         "votes" : "766",
         "reviews" : "512",
         "menu" : {
-            "starters" : [
+            "Starters" : [
                 {
-                    "item" : "Manchurian",
+                    "name" : "Manchurian",
                     "cost" : "80",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Manchurian",
+                    "name" : "Paneer Manchurian",
                     "cost" : "100",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Chilly",
+                    "name" : "Paneer Chilly",
                     "cost" : "150",
                     "veg" : true
                 }
             ],
-            "main_course" : [
+            "Main Course" : [
                 {
-                    "item" : "Paneer Kareem Masala",
+                    "name" : "Paneer Kareem Masala",
                     "cost" : "200",
                     "veg" : true 
                 },
                 {
-                    "item" : "Reshmi Kebab Masala",
+                    "name" : "Reshmi Kebab Masala",
                     "cost" : "150",
                     "veg" : true 
                 },
                 {
-                    "item" : "Paneer Kofta",
+                    "name" : "Paneer Kofta",
                     "cost" : "220",
                     "veg" : true 
                 },
                 {
-                    "item" : "Veg Jalfrezi",
+                    "name" : "Veg Jalfrezi",
                     "cost" : "100",
                     "veg" : true 
                 },
                 {
-                    "item" : "Mushroom Lababdar",
+                    "name" : "Mushroom Lababdar",
                     "cost" : "220",
                     "veg" : true 
                 }
             ],
-            "desserts" : [
+            "Desserts" : [
                 {
                     "name" : "Brownie Sizzler",
                     "cost" : "240",
@@ -98,51 +98,51 @@
         "votes" : "766",
         "reviews" : "512",
         "menu" : {
-            "starters" : [
+            "Starters" : [
                 {
-                    "item" : "Manchurian",
+                    "name" : "Manchurian",
                     "cost" : "80",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Manchurian",
+                    "name" : "Paneer Manchurian",
                     "cost" : "100",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Chilly",
+                    "name" : "Paneer Chilly",
                     "cost" : "150",
                     "veg" : true
                 }
             ],
-            "main_course" : [
+            "Main Course" : [
                 {
-                    "item" : "Paneer Kareem Masala",
+                    "name" : "Paneer Kareem Masala",
                     "cost" : "200",
                     "veg" : true 
                 },
                 {
-                    "item" : "Reshmi Kebab Masala",
+                    "name" : "Reshmi Kebab Masala",
                     "cost" : "150",
                     "veg" : true 
                 },
                 {
-                    "item" : "Paneer Kofta",
+                    "name" : "Paneer Kofta",
                     "cost" : "220",
                     "veg" : true 
                 },
                 {
-                    "item" : "Veg Jalfrezi",
+                    "name" : "Veg Jalfrezi",
                     "cost" : "100",
                     "veg" : true 
                 },
                 {
-                    "item" : "Mushroom Lababdar",
+                    "name" : "Mushroom Lababdar",
                     "cost" : "220",
                     "veg" : true 
                 }
             ],
-            "desserts" : [
+            "Desserts" : [
                 {
                     "name" : "Brownie Sizzler",
                     "cost" : "240",
@@ -170,62 +170,62 @@
         "name": "Madhuban",
         "image_url" : "/food3.jpg",
         "categories" : ["Continental","Asian","Pizza","Desserts"],
-        "cost_for_two" : "420",
-        "min_cost" : "420",
-        "time" : "Up to 420 min",
+        "cost_for_two" : "350",
+        "min_cost" : "40",
+        "time" : "Up to 50 min",
         "payment_method" : {
             "card": true,
             "cash": false,
             "upi": false
         },        "rating" : "4.2",
-        "votes" : "420",
-        "reviews" : "420",
+        "votes" : "152",
+        "reviews" : "135",
         "menu" : {
-            "starters" : [
+            "Starters" : [
                 {
-                    "item" : "Manchurian",
+                    "name" : "Manchurian",
                     "cost" : "80",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Manchurian",
+                    "name" : "Paneer Manchurian",
                     "cost" : "100",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Chilly",
+                    "name" : "Paneer Chilly",
                     "cost" : "150",
                     "veg" : true
                 }
             ],
-            "main_course" : [
+            "Main Course" : [
                 {
-                    "item" : "Paneer Kareem Masala",
+                    "name" : "Paneer Kareem Masala",
                     "cost" : "200",
                     "veg" : true 
                 },
                 {
-                    "item" : "Reshmi Kebab Masala",
+                    "name" : "Reshmi Kebab Masala",
                     "cost" : "150",
                     "veg" : true 
                 },
                 {
-                    "item" : "Paneer Kofta",
+                    "name" : "Paneer Kofta",
                     "cost" : "220",
                     "veg" : true 
                 },
                 {
-                    "item" : "Veg Jalfrezi",
+                    "name" : "Veg Jalfrezi",
                     "cost" : "100",
                     "veg" : true 
                 },
                 {
-                    "item" : "Mushroom Lababdar",
+                    "name" : "Mushroom Lababdar",
                     "cost" : "220",
                     "veg" : true 
                 }
             ],
-            "desserts" : [
+            "Desserts" : [
                 {
                     "name" : "Brownie Sizzler",
                     "cost" : "240",
@@ -264,51 +264,51 @@
         "votes" : "345",
         "reviews" : "200",
         "menu" : {
-            "starters" : [
+            "Starters" : [
                 {
-                    "item" : "Manchurian",
+                    "name" : "Manchurian",
                     "cost" : "80",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Manchurian",
+                    "name" : "Paneer Manchurian",
                     "cost" : "100",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Chilly",
+                    "name" : "Paneer Chilly",
                     "cost" : "150",
                     "veg" : true
                 }
             ],
-            "main_course" : [
+            "Main Course" : [
                 {
-                    "item" : "Paneer Kareem Masala",
+                    "name" : "Paneer Kareem Masala",
                     "cost" : "200",
                     "veg" : true 
                 },
                 {
-                    "item" : "Reshmi Kebab Masala",
+                    "name" : "Reshmi Kebab Masala",
                     "cost" : "150",
                     "veg" : true 
                 },
                 {
-                    "item" : "Paneer Kofta",
+                    "name" : "Paneer Kofta",
                     "cost" : "220",
                     "veg" : true 
                 },
                 {
-                    "item" : "Veg Jalfrezi",
+                    "name" : "Veg Jalfrezi",
                     "cost" : "100",
                     "veg" : true 
                 },
                 {
-                    "item" : "Mushroom Lababdar",
+                    "name" : "Mushroom Lababdar",
                     "cost" : "220",
                     "veg" : true 
                 }
             ],
-            "desserts" : [
+            "Desserts" : [
                 {
                     "name" : "Brownie Sizzler",
                     "cost" : "240",
@@ -347,51 +347,51 @@
         "votes" : "345",
         "reviews" : "150",
         "menu" : {
-            "starters" : [
+            "Starters" : [
                 {
-                    "item" : "Manchurian",
+                    "name" : "Manchurian",
                     "cost" : "80",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Manchurian",
+                    "name" : "Paneer Manchurian",
                     "cost" : "100",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Chilly",
+                    "name" : "Paneer Chilly",
                     "cost" : "150",
                     "veg" : true
                 }
             ],
-            "main_course" : [
+            "Main Course" : [
                 {
-                    "item" : "Paneer Kareem Masala",
+                    "name" : "Paneer Kareem Masala",
                     "cost" : "200",
                     "veg" : true 
                 },
                 {
-                    "item" : "Reshmi Kebab Masala",
+                    "name" : "Reshmi Kebab Masala",
                     "cost" : "150",
                     "veg" : true 
                 },
                 {
-                    "item" : "Paneer Kofta",
+                    "name" : "Paneer Kofta",
                     "cost" : "220",
                     "veg" : true 
                 },
                 {
-                    "item" : "Veg Jalfrezi",
+                    "name" : "Veg Jalfrezi",
                     "cost" : "100",
                     "veg" : true 
                 },
                 {
-                    "item" : "Mushroom Lababdar",
+                    "name" : "Mushroom Lababdar",
                     "cost" : "220",
                     "veg" : true 
                 }
             ],
-            "desserts" : [
+            "Desserts" : [
                 {
                     "name" : "Brownie Sizzler",
                     "cost" : "240",
@@ -430,51 +430,51 @@
         "votes" : "450",
         "reviews" : "344",
         "menu" : {
-            "starters" : [
+            "Starters" : [
                 {
-                    "item" : "Manchurian",
+                    "name" : "Manchurian",
                     "cost" : "80",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Manchurian",
+                    "name" : "Paneer Manchurian",
                     "cost" : "100",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Chilly",
+                    "name" : "Paneer Chilly",
                     "cost" : "150",
                     "veg" : true
                 }
             ],
-            "main_course" : [
+            "Main Course" : [
                 {
-                    "item" : "Paneer Kareem Masala",
+                    "name" : "Paneer Kareem Masala",
                     "cost" : "200",
                     "veg" : true 
                 },
                 {
-                    "item" : "Reshmi Kebab Masala",
+                    "name" : "Reshmi Kebab Masala",
                     "cost" : "150",
                     "veg" : true 
                 },
                 {
-                    "item" : "Paneer Kofta",
+                    "name" : "Paneer Kofta",
                     "cost" : "220",
                     "veg" : true 
                 },
                 {
-                    "item" : "Veg Jalfrezi",
+                    "name" : "Veg Jalfrezi",
                     "cost" : "100",
                     "veg" : true 
                 },
                 {
-                    "item" : "Mushroom Lababdar",
+                    "name" : "Mushroom Lababdar",
                     "cost" : "220",
                     "veg" : true 
                 }
             ],
-            "desserts" : [
+            "Desserts" : [
                 {
                     "name" : "Brownie Sizzler",
                     "cost" : "240",
@@ -513,51 +513,51 @@
         "votes" : "250",
         "reviews" : "500",
         "menu" : {
-            "starters" : [
+            "Starters" : [
                 {
-                    "item" : "Manchurian",
+                    "name" : "Manchurian",
                     "cost" : "80",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Manchurian",
+                    "name" : "Paneer Manchurian",
                     "cost" : "100",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Chilly",
+                    "name" : "Paneer Chilly",
                     "cost" : "150",
                     "veg" : true
                 }
             ],
-            "main_course" : [
+            "Main Course" : [
                 {
-                    "item" : "Paneer Kareem Masala",
+                    "name" : "Paneer Kareem Masala",
                     "cost" : "200",
                     "veg" : true 
                 },
                 {
-                    "item" : "Reshmi Kebab Masala",
+                    "name" : "Reshmi Kebab Masala",
                     "cost" : "150",
                     "veg" : true 
                 },
                 {
-                    "item" : "Paneer Kofta",
+                    "name" : "Paneer Kofta",
                     "cost" : "220",
                     "veg" : true 
                 },
                 {
-                    "item" : "Veg Jalfrezi",
+                    "name" : "Veg Jalfrezi",
                     "cost" : "100",
                     "veg" : true 
                 },
                 {
-                    "item" : "Mushroom Lababdar",
+                    "name" : "Mushroom Lababdar",
                     "cost" : "220",
                     "veg" : true 
                 }
             ],
-            "desserts" : [
+            "Desserts" : [
                 {
                     "name" : "Brownie Sizzler",
                     "cost" : "240",
@@ -596,51 +596,51 @@
         "votes" : "244",
         "reviews" : "156",
         "menu" : {
-            "starters" : [
+            "Starters" : [
                 {
-                    "item" : "Manchurian",
+                    "name" : "Manchurian",
                     "cost" : "80",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Manchurian",
+                    "name" : "Paneer Manchurian",
                     "cost" : "100",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Chilly",
+                    "name" : "Paneer Chilly",
                     "cost" : "150",
                     "veg" : true
                 }
             ],
-            "main_course" : [
+            "Main Course" : [
                 {
-                    "item" : "Paneer Kareem Masala",
+                    "name" : "Paneer Kareem Masala",
                     "cost" : "200",
                     "veg" : true 
                 },
                 {
-                    "item" : "Reshmi Kebab Masala",
+                    "name" : "Reshmi Kebab Masala",
                     "cost" : "150",
                     "veg" : true 
                 },
                 {
-                    "item" : "Paneer Kofta",
+                    "name" : "Paneer Kofta",
                     "cost" : "220",
                     "veg" : true 
                 },
                 {
-                    "item" : "Veg Jalfrezi",
+                    "name" : "Veg Jalfrezi",
                     "cost" : "100",
                     "veg" : true 
                 },
                 {
-                    "item" : "Mushroom Lababdar",
+                    "name" : "Mushroom Lababdar",
                     "cost" : "220",
                     "veg" : true 
                 }
             ],
-            "desserts" : [
+            "Desserts" : [
                 {
                     "name" : "Brownie Sizzler",
                     "cost" : "240",
@@ -679,51 +679,51 @@
         "votes" : "242",
         "reviews" : "145",
         "menu" : {
-            "starters" : [
+            "Starters" : [
                 {
-                    "item" : "Manchurian",
+                    "name" : "Manchurian",
                     "cost" : "80",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Manchurian",
+                    "name" : "Paneer Manchurian",
                     "cost" : "100",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Chilly",
+                    "name" : "Paneer Chilly",
                     "cost" : "150",
                     "veg" : true
                 }
             ],
-            "main_course" : [
+            "Main Course" : [
                 {
-                    "item" : "Paneer Kareem Masala",
+                    "name" : "Paneer Kareem Masala",
                     "cost" : "200",
                     "veg" : true 
                 },
                 {
-                    "item" : "Reshmi Kebab Masala",
+                    "name" : "Reshmi Kebab Masala",
                     "cost" : "150",
                     "veg" : true 
                 },
                 {
-                    "item" : "Paneer Kofta",
+                    "name" : "Paneer Kofta",
                     "cost" : "220",
                     "veg" : true 
                 },
                 {
-                    "item" : "Veg Jalfrezi",
+                    "name" : "Veg Jalfrezi",
                     "cost" : "100",
                     "veg" : true 
                 },
                 {
-                    "item" : "Mushroom Lababdar",
+                    "name" : "Mushroom Lababdar",
                     "cost" : "220",
                     "veg" : true 
                 }
             ],
-            "desserts" : [
+            "Desserts" : [
                 {
                     "name" : "Brownie Sizzler",
                     "cost" : "240",
@@ -762,51 +762,51 @@
         "votes" : "256",
         "reviews" : "444",
         "menu" : {
-            "starters" : [
+            "Starters" : [
                 {
-                    "item" : "Manchurian",
+                    "name" : "Manchurian",
                     "cost" : "80",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Manchurian",
+                    "name" : "Paneer Manchurian",
                     "cost" : "100",
                     "veg" : true
                 },
                 {
-                    "item" : "Paneer Chilly",
+                    "name" : "Paneer Chilly",
                     "cost" : "150",
                     "veg" : true
                 }
             ],
-            "main_course" : [
+            "Main Course" : [
                 {
-                    "item" : "Paneer Kareem Masala",
+                    "name" : "Paneer Kareem Masala",
                     "cost" : "200",
                     "veg" : true 
                 },
                 {
-                    "item" : "Reshmi Kebab Masala",
+                    "name" : "Reshmi Kebab Masala",
                     "cost" : "150",
                     "veg" : true 
                 },
                 {
-                    "item" : "Paneer Kofta",
+                    "name" : "Paneer Kofta",
                     "cost" : "220",
                     "veg" : true 
                 },
                 {
-                    "item" : "Veg Jalfrezi",
+                    "name" : "Veg Jalfrezi",
                     "cost" : "100",
                     "veg" : true 
                 },
                 {
-                    "item" : "Mushroom Lababdar",
+                    "name" : "Mushroom Lababdar",
                     "cost" : "220",
                     "veg" : true 
                 }
             ],
-            "desserts" : [
+            "Desserts" : [
                 {
                     "name" : "Brownie Sizzler",
                     "cost" : "240",

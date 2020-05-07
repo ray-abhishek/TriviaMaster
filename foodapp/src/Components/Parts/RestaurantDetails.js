@@ -2,8 +2,7 @@ import React from 'react'
 import styles from './RestaurantDetails.module.css'
 import { Button, Grid, Paper, Typography, Divider } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles';
-import MenuModal from './MenuModal'
-
+import { Link } from 'react-router-dom'
 
 const getPayments = (obj)=>{
     let allowedMethods = []
@@ -33,18 +32,10 @@ const RestaurantDetails = ({data})=>{
     const classes = useStyles();
 
     
-    const {name, image_url, categories,cost_for_two,min_cost,time,payment_method,rating,votes,reviews , menu } = data 
+    const {name, image_url, categories,cost_for_two,min_cost,time,payment_method,rating,votes,reviews , menu , index} = data 
   //  console.log(name, image_url, categories,cost,min_cost,time,payment_method,rating,votes,reviews)
 
-  const [open, setOpen] = React.useState(false);
-
-  const handleOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
+  
 
 
   return (
@@ -69,13 +60,13 @@ const RestaurantDetails = ({data})=>{
                   <p>{votes} votes</p>
                   <p>{reviews} reviews</p>
                   </div>
-                  <Button type="button" color="secondary" variant="contained" className={styles.menubtn} onClick={handleOpen}>Menu</Button>
+                  <Link to={`/restaurants/${index}`}>
+                    <Button type="button" color="secondary" variant="contained" className={styles.menubtn}>Menu</Button>
+                  </Link>
               </div>
               </Grid>
           </Grid>
           </Paper>
-          <MenuModal restMenu={menu} modalOpen={open} doClose={handleClose}/> 
-          
       </div>
   )
 
