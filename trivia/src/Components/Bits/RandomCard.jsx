@@ -2,7 +2,7 @@ import React from 'react'
 
 const RandomCard = ()=>{
     return(
-        <h1>Start a random Quiz</h1>
+        <h1>Random Quiz</h1>
     )
 }
 
