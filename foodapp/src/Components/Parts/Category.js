@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     margin:10,
     [theme.breakpoints.down('xs')]: {
       width: '100% !important', 
-      height: 100,
+      height: 150,
     },
     '&:hover, &$focusVisible': {
       zIndex: 1,
@@ -28,11 +28,13 @@ const useStyles = makeStyles((theme) => ({
         opacity: 0,
       },
       '& $imageTitle': {
-        border: '4px solid currentColor',
+        border: '4px solid whitesmoke',
       },
     },
   },
-  focusVisible: {},
+  focusVisible: {
+    backgroundColor : 'black',
+  },
   imageButton: {
     position: 'absolute',
     left: 0,
@@ -42,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    color: theme.palette.common.white,
+    color: 'whitesmoke',
   },
   imageSrc: {
     position: 'absolute',
@@ -52,6 +54,9 @@ const useStyles = makeStyles((theme) => ({
     bottom: 0,
     backgroundSize: 'cover',
     backgroundPosition: 'center 40%',
+    borderRadius: '20%',
+    borderTopRightRadius: '0%',
+    borderBottomLeftRadius : '0%',
   },
   imageBackdrop: {
     position: 'absolute',
@@ -59,13 +64,21 @@ const useStyles = makeStyles((theme) => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.palette.common.black,
+  /*  backgroundColor: theme.palette.common.black, */
     opacity: 0.4,
     transition: theme.transitions.create('opacity'),
+    backgroundColor : 'black',
+    borderRadius : '20%',
+    borderTopRightRadius : '0%',
+    borderBottomLeftRadius : '0%',
   },
   imageTitle: {
     position: 'relative',
     padding: `${theme.spacing(2)}px ${theme.spacing(4)}px ${theme.spacing(1) + 6}px`,
+    fontSize : 25,
+    fontWeight : 100,
+    color : 'whitesmoke',
+    fontFamily : 'Cantarell'
   },
   imageMarked: {
     height: 3,
@@ -116,3 +129,6 @@ export default function Category({title , url}) {
     </div>
   );
 }
+
+
+

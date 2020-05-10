@@ -11,7 +11,7 @@ export default function Menu(props) {
   
    
     var { index } = useParams()
-    console.log(index," is NAME")
+  //  console.log(index," is NAME")
     index = Number(index)
     const { restaurants } = useSelector(state => state.menu)
     console.log(restaurants, " are the RESTAURANTS")
@@ -20,7 +20,7 @@ export default function Menu(props) {
     console.log(menu, " is menu Inside MENU")
 
   return (
-    <Grid container>
+    <Grid container style={center}>
       <Grid item xs={12}>
             
             <MenuList data={menu}/>
@@ -30,3 +30,7 @@ export default function Menu(props) {
 }
 
 // <Typography>M E N U</Typography>
+
+const center = {
+  margin : '0 auto',
+}

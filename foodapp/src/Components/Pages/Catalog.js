@@ -9,7 +9,7 @@ const basicGrid = {
     display : 'flex',
     flexDirection : 'row',
     flexWrap : 'wrap',
-    
+    justifyContent : 'center',
 }
 
 export default function Catalog(props){

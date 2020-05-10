@@ -6,13 +6,16 @@ import { v4 as uuidv4 } from 'uuid'
 
 const basicGrid = {
     display : 'flex',
-    flexDirection : 'column'
+    flexDirection : 'column',
+    maxWidth : '77%',
+    margin : '0 auto',
+    paddingBottom : '60px',
 }
 
 export default function Restaurant(props){
     console.log(props, " are props inside RESTAURANT")
     const restaurants = useSelector(state => state.menu.restaurants)
-
+    
     console.log(restaurants,  " are restaurants")
 
     return(
@@ -23,6 +26,7 @@ export default function Restaurant(props){
                     return <RestaurantDetails key={uuidv4()} data={restaurant}/>
                 })
             }
+            
         </Grid>
     )
 }

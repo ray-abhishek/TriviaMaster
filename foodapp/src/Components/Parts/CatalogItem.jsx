@@ -8,13 +8,13 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
-    minWidth: 300,
+    minWidth: 950,
     width: 'Object-fit',
   },
   image: {
     position: 'relative',
     height: 300,
-    margin:10,
+    margin:0,
     [theme.breakpoints.down('xs')]: {
       width: '100% !important', 
       height: 100,
@@ -91,7 +91,7 @@ export default function CatalogItem({name,url,cost}) {
           className={classes.image}
           focusVisibleClassName={classes.focusVisible}
           style={{
-            width: '300px',
+            width: '950px',
           }}
         >
           <span

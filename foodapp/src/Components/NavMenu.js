@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './NavMenu.css'
 
 const navButtonStyles = {
     textDecoration : 'none',
     color: 'crimson',
     fontWeight: 'bold',
-    padding: 20
+    padding: 20,
+    paddingBottom : 0,
 }
 
 const navButtons = [
@@ -21,12 +23,22 @@ const navButtons = [
 
 function LinksPage(){
     return (
-        <div>
+        <div style={navStyle}>
         {navButtons.map(link => {
-        return <Link to={link.Route} style={navButtonStyles}>{link.Link}</Link>
+        return <Link to={link.Route} style={navButtonStyles} className="btn-hover">{link.Link}</Link>
     })}
     </div>
     )
+}
+
+const navStyle = {
+    minHeight : '40px',
+    display : 'flex',
+    justifyContent : 'flex-start',
+    margin: '0 auto',
+    maxWidth : '80%',
+    fontSize : '30px',
+    marginBottom : '20px',
 }
 
 export default LinksPage
