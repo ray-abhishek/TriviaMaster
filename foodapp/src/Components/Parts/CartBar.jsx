@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import { Typography , Button } from '@material-ui/core'
+import { Link } from 'react-router-dom'
 
 export default function CartBar() {
 
@@ -23,7 +24,7 @@ export default function CartBar() {
         <div style={cartBarStyle}>
             <div style={center}> 
            <Typography>You have {totalCount} items in your cart totalling to {totalCost}</Typography>  
-           <Button style={cartBarBtnStyle}>Checkout</Button>
+           <Link to="/Cart"><Button style={cartBarBtnStyle}>Checkout</Button></Link>
            </div>
         </div>
     )
