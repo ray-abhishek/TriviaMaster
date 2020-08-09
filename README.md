@@ -21,6 +21,6 @@ npm install npm@latest -g
 ### Clone Repo, Install Dependencies and then Start App
     - git clone https://github.com/ray2294/TriviaMaster.git
     - cd trivia/
-    -npm install
-    -npm start
+    - npm install
+    - npm start
 
